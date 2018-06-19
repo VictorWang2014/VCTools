@@ -1,0 +1,6 @@
+framework module VCTools {
+  umbrella header "VCTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

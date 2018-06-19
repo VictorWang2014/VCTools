@@ -1,0 +1,16 @@
+PODS:
+  - VCTools (0.1.0)
+
+DEPENDENCIES:
+  - VCTools (from `../`)
+
+EXTERNAL SOURCES:
+  VCTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VCTools: 808ead10d03a854156af4122ab4ca592e3ac6060
+
+PODFILE CHECKSUM: faff675fa3ad3e19f771e63bad0442c611224e33
+
+COCOAPODS: 1.5.3
