@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2FC1B2FB1205F5A0BED5171778C362B6 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C077A60CC9FDE0E3D35C6DD6AD3D820 /* ReplaceMe.m */; };
 		68CC0F821E307C8B40AC32C7A79EE258 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		7EC20076695F67BD3CECA74B3B23B45E /* Pods-VCTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 335FBCFAACA7066EB9A81CD128E7755B /* Pods-VCTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		968CD04520D89F1C009AA7CD /* VCHeadScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 968CD04320D89F1C009AA7CD /* VCHeadScrollView.h */; };
+		968CD04620D89F1C009AA7CD /* VCHeadScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 968CD04420D89F1C009AA7CD /* VCHeadScrollView.m */; };
 		9D920F7DA51ADF33F4E60287E9287BB9 /* Pods-VCTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE78E03E858D8745828239A29C3E9FDA /* Pods-VCTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E0D2BC648E10679C912625D4F73A643 /* VCTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6F958BC4911910B45D7AAAC6DC22C9 /* VCTools-dummy.m */; };
 		A1EA4CE7FE9E74DC8CA714DD75F0858F /* VCTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11490D4C867DBE594F65A0E857999753 /* VCTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,12 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C077A60CC9FDE0E3D35C6DD6AD3D820 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = VCTools/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		11490D4C867DBE594F65A0E857999753 /* VCTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VCTools-umbrella.h"; sourceTree = "<group>"; };
-		126F4DAD1F473F4B69327E26F146D7FB /* VCTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VCTools.framework; path = VCTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		126F4DAD1F473F4B69327E26F146D7FB /* VCTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VCTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC7575AAA565B66466EB34974089A96 /* Pods-VCTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VCTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1E7925661D6AC7261BC86AF36C9FC318 /* VCTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VCTools.xcconfig; sourceTree = "<group>"; };
-		1E8A2A6E2A472AEA9E4C77826B931DAD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1E8A2A6E2A472AEA9E4C77826B931DAD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		25D41752B1AB872C202B0045FD23EFC2 /* Pods-VCTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VCTools_Example.modulemap"; sourceTree = "<group>"; };
 		335FBCFAACA7066EB9A81CD128E7755B /* Pods-VCTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VCTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		467037E175ACABFD70198CFC1C8BDD59 /* Pods-VCTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VCTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		4B4AD4CC07EAF5E8BCB5247A893AA275 /* Pods-VCTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VCTools_Example-dummy.m"; sourceTree = "<group>"; };
 		4BD25D1043E67A916F7E78DEF431B56E /* Pods-VCTools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VCTools_Tests-resources.sh"; sourceTree = "<group>"; };
 		58A26F99D8F961F00EC2D6C168D63278 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		59EB4108D6A71A59CF1F96F9E266C25F /* VCTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = VCTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		59EB4108D6A71A59CF1F96F9E266C25F /* VCTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = VCTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5A9A8ECEE1E3564A606602203C4057F2 /* Pods-VCTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VCTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5F283CB834482A65AF67E51DEC4B5DFC /* Pods-VCTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VCTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -59,19 +59,21 @@
 		86D4D69158338E1BD739DE4811E510A4 /* Pods-VCTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VCTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8D57173D1B9800E5A099E12A28363DAF /* Pods-VCTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VCTools_Tests.modulemap"; sourceTree = "<group>"; };
 		91D619A0C4C8935CB9C348CC634180B0 /* Pods-VCTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VCTools_Tests-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		943AC2AFF1D950458C10A67597BE8E0F /* Pods-VCTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VCTools_Example.release.xcconfig"; sourceTree = "<group>"; };
+		968CD04320D89F1C009AA7CD /* VCHeadScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCHeadScrollView.h; path = VCTools/Classes/VCHeadScrollView.h; sourceTree = "<group>"; };
+		968CD04420D89F1C009AA7CD /* VCHeadScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCHeadScrollView.m; path = VCTools/Classes/VCHeadScrollView.m; sourceTree = "<group>"; };
 		9D6F958BC4911910B45D7AAAC6DC22C9 /* VCTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VCTools-dummy.m"; sourceTree = "<group>"; };
 		B5408B82D7D9E748383659D992A168B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC3F56DF7CEC8C1DE6608235115850D2 /* VCTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VCTools.modulemap; sourceTree = "<group>"; };
 		C06852EF8727292B2DBF5E24D685C86E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5CB4D23C46FB800E08CFC28D2EDF97A /* Pods_VCTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VCTools_Example.framework; path = "Pods-VCTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CB4D23C46FB800E08CFC28D2EDF97A /* Pods_VCTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VCTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6045B589A46590688A6BB1693A5436A /* Pods-VCTools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VCTools_Example-resources.sh"; sourceTree = "<group>"; };
 		CB7BE41BF67F1439872D7C0CEB9CC094 /* Pods-VCTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VCTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CE78E03E858D8745828239A29C3E9FDA /* Pods-VCTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VCTools_Example-umbrella.h"; sourceTree = "<group>"; };
 		DE8F8456882C815F108EDCC20ADAC48E /* Pods-VCTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VCTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DFB5F20835141087CF7C7E746BA8F0C2 /* Pods_VCTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VCTools_Tests.framework; path = "Pods-VCTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2C222A155E857742356BE2E99BD75AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DFB5F20835141087CF7C7E746BA8F0C2 /* Pods_VCTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VCTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C222A155E857742356BE2E99BD75AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,7 +207,8 @@
 		F1646BA1832FC7E15334ECF7DA3B6357 /* VCTools */ = {
 			isa = PBXGroup;
 			children = (
-				0C077A60CC9FDE0E3D35C6DD6AD3D820 /* ReplaceMe.m */,
+				968CD04320D89F1C009AA7CD /* VCHeadScrollView.h */,
+				968CD04420D89F1C009AA7CD /* VCHeadScrollView.m */,
 				B33A78427A4858CD95D0A03EF0555B81 /* Pod */,
 				F431BBEE4C2FCD6328F0C825BB602E4E /* Support Files */,
 			);
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D920F7DA51ADF33F4E60287E9287BB9 /* Pods-VCTools_Example-umbrella.h in Headers */,
+				968CD04520D89F1C009AA7CD /* VCHeadScrollView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +347,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FC1B2FB1205F5A0BED5171778C362B6 /* ReplaceMe.m in Sources */,
 				9E0D2BC648E10679C912625D4F73A643 /* VCTools-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968CD04620D89F1C009AA7CD /* VCHeadScrollView.m in Sources */,
 				CE9B5B8BA5F83777CFF6D31E1CAAC6EC /* Pods-VCTools_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
