@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VCTools_Example' do
+  pod 'VCTools', :path => '../'
+
+  target 'VCTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
